@@ -14,6 +14,9 @@ participant Trader identified by tradeId {
     o String tradeId
     o String firstName
     o String lastName
+    o Integer age
+    o String location
+    o String linkedAccount
 }
 transaction Trade {
     --> Commodity commodity
